@@ -16,6 +16,7 @@ const Home = ()=>{
             setData(result.posts)
         })
     },[])
+    
     const likePost =(id)=>{
         fetch('/like',{
             method:"put" ,
@@ -92,6 +93,7 @@ const Home = ()=>{
         }).catch(err=>{
             console.log(err)
         })
+        
   }
 
 

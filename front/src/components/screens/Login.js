@@ -106,6 +106,10 @@ const Signin = ()=>{
               <h6>
                   <Link to="/signup">Don't have an account ?</Link>
               </h6>
+              <h7>
+                  <Link to="/reset">Forgot Password ?</Link>
+              </h7>
+
 
 
             
